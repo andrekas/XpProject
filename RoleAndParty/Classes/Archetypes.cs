@@ -9,6 +9,7 @@ namespace RoleAndParty.Classes
 {
     public class Archetypes<T> : IList<T>
     {
+        private readonly List<T> list = new List<T>();
         public IEnumerator<T> GetEnumerator()
         {
             throw new NotImplementedException();
@@ -21,17 +22,17 @@ namespace RoleAndParty.Classes
 
         public void Add(T item)
         {
-            throw new NotImplementedException();
+            list.Add(item);
         }
 
         public void Clear()
         {
-            throw new NotImplementedException();
+            list.Clear();
         }
 
         public bool Contains(T item)
         {
-            throw new NotImplementedException();
+            return list.Contains(item);
         }
 
         public void CopyTo(T[] array, int arrayIndex)
@@ -44,7 +45,7 @@ namespace RoleAndParty.Classes
             throw new NotImplementedException();
         }
 
-        public int Count { get; }
+        public int Count => list.Count;
         public bool IsReadOnly { get; }
         public int IndexOf(T item)
         {
