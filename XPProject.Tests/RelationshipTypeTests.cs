@@ -8,59 +8,35 @@ namespace RoleAndParty.Tests
     [TestClass]
     public class RelationshipTypeTests
     {
-        public RelationshipTypeTests()
+        private RelationshipType g;
+        [TestInitialize]
+        public void Init() { g = new RelationshipType(); }
+        [TestCleanup]
+        public void Cleanup()
         {
-            //
-            // TODO: Add constructor logic here
-            //
+            g = null;
         }
-
-        private TestContext testContextInstance;
-
-        /// <summary>
-        ///Gets or sets the test context which provides
-        ///information about and functionality for the current test run.
-        ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
-
-        #region Additional test attributes
-        //
-        // You can use the following additional attributes as you write your tests:
-        //
-        // Use ClassInitialize to run code before running the first test in the class
-        // [ClassInitialize()]
-        // public static void MyClassInitialize(TestContext testContext) { }
-        //
-        // Use ClassCleanup to run code after all tests in a class have run
-        // [ClassCleanup()]
-        // public static void MyClassCleanup() { }
-        //
-        // Use TestInitialize to run code before running each test 
-        // [TestInitialize()]
-        // public void MyTestInitialize() { }
-        //
-        // Use TestCleanup to run code after each test has run
-        // [TestCleanup()]
-        // public void MyTestCleanup() { }
-        //
-        #endregion
+        [TestMethod]
+        public void ConstructorTest() { Assert.IsNotNull(g); }
 
         [TestMethod]
-        public void TestMethod1()
+        public void NameTests()
         {
-            //
-            // TODO: Add test logic here
-            //
+            var fakeValue = "some kind of Name";
+            g.Name = fakeValue;
+            Assert.AreEqual(fakeValue, g.Name);
+            Assert.AreEqual(typeof(string), g.Name.GetType());
         }
+
+        [TestMethod]
+        public void DescriptionTests()
+        {
+            var fakeValue = "some kind of Description";
+            g.Description = fakeValue;
+            Assert.AreEqual(fakeValue, g.Description);
+            Assert.AreEqual(typeof(string), g.Description.GetType());
+        }
+
+
     }
 }
