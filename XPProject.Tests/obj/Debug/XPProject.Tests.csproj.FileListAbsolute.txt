@@ -14,7 +14,6 @@ C:\Users\Kert\OneDrive\University\Programming\Projects\xpproject-\XPProject.Test
 C:\Users\Kert\OneDrive\University\Programming\Projects\xpproject-\XPProject.Tests\bin\Debug\XPProject.Tests.dll.config
 C:\Users\Kert\OneDrive\University\Programming\Projects\xpproject-\XPProject.Tests\bin\Debug\XPProject.Tests.dll
 C:\Users\Kert\OneDrive\University\Programming\Projects\xpproject-\XPProject.Tests\bin\Debug\XPProject.Tests.pdb
-C:\Users\Kert\OneDrive\University\Programming\Projects\xpproject-\XPProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\Kert\OneDrive\University\Programming\Projects\xpproject-\XPProject.Tests\bin\Debug\XPProject.dll
 C:\Users\Kert\OneDrive\University\Programming\Projects\xpproject-\XPProject.Tests\bin\Debug\Microsoft.Owin.dll
 C:\Users\Kert\OneDrive\University\Programming\Projects\xpproject-\XPProject.Tests\bin\Debug\System.Web.Optimization.dll
