@@ -14,16 +14,23 @@ namespace XPProject.Tests
         private EmailAddress g;
         [TestInitialize]
         public void Init() { g = new EmailAddress(); }
+        [TestCleanup]
+        public void Cleanup()
+        {
+            g = null;
+        }
+
         [TestMethod]
         public void ConstructorTest() { Assert.IsNotNull(g); }
 
-        //[TestCleanup]
-        //EmailAddress g = null;
 
         [TestMethod]
-        public void AttributeTest()
+        public void EmailTests()
         {
-            
+            var fakeValue = "some kind of email";
+            g.Email = fakeValue;
+            Assert.AreEqual(fakeValue, g.Email);
+            Assert.AreEqual(typeof(string), g.Email.GetType());
         }
 
 

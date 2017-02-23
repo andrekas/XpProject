@@ -19,6 +19,9 @@ namespace XPProject.Tests
             g = null;
         }
 
+
+
+
         [TestMethod]
         public void ConstructorTest() { Assert.IsNotNull(g); }
 
