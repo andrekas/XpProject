@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace XPProject.Tests
+namespace RoleAndParty.Tests
 {
     /// <summary>
     /// Summary description for RelationshipTypeTests

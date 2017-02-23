@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Security.Policy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using RoleAndParty.Classes;
 
-namespace XPProject.Tests
+
+namespace RoleAndParty.Tests
 {
     [TestClass]
     public class WebpageAddressTests

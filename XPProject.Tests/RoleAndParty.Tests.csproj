@@ -62,13 +62,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XPProject\XPProject.csproj">
-      <Project>{71DD6248-A333-4BAF-A865-2741BC346F14}</Project>
-      <Name>XPProject</Name>
-    </ProjectReference>
+    <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <ProjectReference Include="..\RoleAndParty\RoleAndParty.csproj">
+      <Project>{2BC3C023-3A2A-422B-98CD-EC24BCDB8947}</Project>
+      <Name>RoleAndParty</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

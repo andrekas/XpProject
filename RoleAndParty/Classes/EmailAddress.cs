@@ -1,4 +1,4 @@
-﻿namespace XPProject
+﻿namespace RoleAndParty.Classes
 {
     public class EmailAddress
     {

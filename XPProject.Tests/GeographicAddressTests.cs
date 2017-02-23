@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using RoleAndParty.Classes;
 
-namespace XPProject.Tests
+namespace RoleAndParty.Tests
 {
     [TestClass]
     public class GeographicAddressTests
