@@ -41,11 +41,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Classes\Archetype.cs" />
+    <Compile Include="Classes\Archetypes.cs" />
     <Compile Include="Classes\EmailAddress.cs" />
+    <Compile Include="Classes\EmailAddresses.cs" />
     <Compile Include="Classes\GeograficAddress.cs" />
+    <Compile Include="Classes\GeografikAddresses.cs" />
     <Compile Include="Classes\RelationshipType.cs" />
+    <Compile Include="Classes\RelationshipTypes.cs" />
     <Compile Include="Classes\TelecomAddress.cs" />
+    <Compile Include="Classes\TelecomAddresses.cs" />
     <Compile Include="Classes\WebpageAddress.cs" />
+    <Compile Include="Classes\WebpageAddresses.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

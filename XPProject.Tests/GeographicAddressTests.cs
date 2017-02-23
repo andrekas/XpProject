@@ -13,6 +13,11 @@ namespace XPProject.Tests
         private GeographicAddress g;
         [TestInitialize]
         public void Init() { g = new GeographicAddress(); }
+        [TestCleanup]
+        public void Cleanup()
+        {
+            g = null;
+        }
         [TestMethod]
         public void ConstructorTest() { Assert.IsNotNull(g); }
 
