@@ -1,4 +1,4 @@
-﻿namespace RoleAndParty
+﻿namespace RoleAndParty.Classes
 {
     public class RelationshipType
     {

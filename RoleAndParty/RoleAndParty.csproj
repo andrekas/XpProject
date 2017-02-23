@@ -48,6 +48,7 @@
     <Compile Include="Classes\EmailAddresses.cs" />
     <Compile Include="Classes\GeographicAddress.cs" />
     <Compile Include="Classes\GeographicAddresses.cs" />
+    <Compile Include="Classes\Person.cs" />
     <Compile Include="Classes\RelationshipType.cs" />
     <Compile Include="Classes\RelationshipTypes.cs" />
     <Compile Include="Classes\TelecomAddress.cs" />

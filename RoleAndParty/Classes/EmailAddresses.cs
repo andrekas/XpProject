@@ -1,6 +1,4 @@
-﻿using XPProject;
-
-namespace RoleAndParty.Classes
+﻿namespace RoleAndParty.Classes
 {
     public class EmailAddresses : Archetypes<EmailAddress>
     {
