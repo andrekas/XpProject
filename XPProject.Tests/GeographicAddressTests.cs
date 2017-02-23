@@ -8,11 +8,11 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace XPProject.Tests
 {
     [TestClass]
-    public class GeograficAddressTests
+    public class GeographicAddressTests
     {
-        private GeograficAddress g;
+        private GeographicAddress g;
         [TestInitialize]
-        public void Init() { g = new GeograficAddress(); }
+        public void Init() { g = new GeographicAddress(); }
         [TestMethod]
         public void ConstructorTest() { Assert.IsNotNull(g); }
 
