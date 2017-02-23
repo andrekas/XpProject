@@ -41,10 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Classes\EmailAddress.cs" />
     <Compile Include="Classes\GeograficAddress.cs" />
     <Compile Include="Classes\RelationshipType.cs" />
-    <Compile Include="Classes\TelecomAddress.cs" />
     <Compile Include="Classes\WebpageAddress.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

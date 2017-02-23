@@ -4,16 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RoleAndParty;
 
 namespace XPProject.Tests
 {
     [TestClass]
     public class GeographicAddressTests
     {
-        private GeograficAddress g;
+        private GeographicAddress g;
         [TestInitialize]
-        public void Init() { g = new GeograficAddress(); }
+        public void Init() { g = new GeographicAddress(); }
         [TestMethod]
         public void ConstructorTest() { Assert.IsNotNull(g); }
 
