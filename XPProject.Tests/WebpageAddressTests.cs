@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Security.Policy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using RoleAndParty;
 
 namespace XPProject.Tests
 {
