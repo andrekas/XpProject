@@ -44,3 +44,8 @@ C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\XPProject.Test
 C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\XPProject.Tests\obj\Debug\RoleAndParty.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\XPProject.Tests\obj\Debug\XPProject.Tests.dll
 C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\XPProject.Tests\obj\Debug\XPProject.Tests.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\XPProject.Tests\bin\Debug\XPProject.Tests.dll.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\XPProject.Tests\bin\Debug\XPProject.Tests.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\XPProject.Tests\bin\Debug\XPProject.Tests.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\XPProject.Tests\bin\Debug\RoleAndParty.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\XPProject.Tests\bin\Debug\RoleAndParty.pdb
