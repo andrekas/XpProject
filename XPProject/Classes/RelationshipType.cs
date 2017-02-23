@@ -7,6 +7,8 @@ namespace XPProject
 {
     public class RelationshipType
     {
-        public RelationshipType() { }
+            public string Description { get; set; }
+            public string Name { get; set; }
+
     }
 }
