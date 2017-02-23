@@ -21,7 +21,17 @@ namespace XPProject.Tests
         [TestMethod]
         public void AddressLinesTest()
         {
-           
+            var fakeValue = "some kind of address";
+            g.AddressLines = fakeValue;
+            Assert.AreEqual(fakeValue, g.AddressLines);
+            Assert.AreEqual(typeof(string), g.AddressLines.GetType());
         }
+        //[TestMethod]
+        //public void AddressLinesTypeTest()
+        //{
+        //    var fakeValue = "some kind of address";
+        //    g.AddressLines = fakeValue;
+        //    Assert.AreEqual(typeof(string), g.AddressLines.GetType());
+        //}
     }
 }

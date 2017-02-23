@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPProject", "XPProject\XPPr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPProject.Tests", "XPProject.Tests\XPProject.Tests.csproj", "{76F0BD6A-2FEB-4FED-A4DD-CDEEAE02ADB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleAndParty", "RoleAndParty\RoleAndParty.csproj", "{2BC3C023-3A2A-422B-98CD-EC24BCDB8947}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,20 +23,12 @@ Global
 		{76F0BD6A-2FEB-4FED-A4DD-CDEEAE02ADB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76F0BD6A-2FEB-4FED-A4DD-CDEEAE02ADB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76F0BD6A-2FEB-4FED-A4DD-CDEEAE02ADB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC3C023-3A2A-422B-98CD-EC24BCDB8947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC3C023-3A2A-422B-98CD-EC24BCDB8947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC3C023-3A2A-422B-98CD-EC24BCDB8947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC3C023-3A2A-422B-98CD-EC24BCDB8947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://xpteamttu.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = XPProject.Tests\\XPProject.Tests.csproj
-		SccProjectName1 = XPProject.Tests
-		SccLocalPath1 = XPProject.Tests
-		SccProjectUniqueName2 = XPProject\\XPProject.csproj
-		SccProjectName2 = XPProject
-		SccLocalPath2 = XPProject
 	EndGlobalSection
 EndGlobal
