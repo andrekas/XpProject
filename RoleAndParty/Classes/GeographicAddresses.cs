@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoleAndParty.Classes
 {
-    public class GeografikAddresses : Archetypes<GeograficAddress>
+    public class GeographicAddresses : Archetypes<GeographicAddress>
     {
     }
 }

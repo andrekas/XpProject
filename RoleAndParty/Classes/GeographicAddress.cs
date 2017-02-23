@@ -5,7 +5,7 @@ using System.Web;
 
 namespace RoleAndParty
 {
-    public class GeograficAddress
+    public class GeographicAddress
     {
         public string AddressLines { get; set; }
         public string City { get; set; }
