@@ -7,6 +7,7 @@ namespace RoleAndParty
 {
     public class RelationshipType
     {
-        public RelationshipType() { }
+        public string Name { get; set; }
+        public string Description { get; set; }
     }
 }

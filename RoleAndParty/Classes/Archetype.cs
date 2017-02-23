@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RoleAndParty.Classes
 {
-    class Archetype
+    public class Archetype
     {
     }
 }
