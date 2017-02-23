@@ -41,3 +41,6 @@ C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\XPProject.Test
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\XPProject.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\XPProject.Tests\bin\Debug\EntityFramework.xml
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\XPProject.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\XPProject.Tests\obj\Debug\RoleAndParty.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\XPProject.Tests\obj\Debug\XPProject.Tests.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\XPProject.Tests\obj\Debug\XPProject.Tests.pdb

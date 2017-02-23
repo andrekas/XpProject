@@ -1,0 +1,57 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using RoleAndParty.Classes;
+
+namespace RoleAndParty.Tests
+{
+    /// <summary>
+    /// Summary description for EmailAddressTests
+    /// </summary>
+    [TestClass]
+    public class EmailAddressTests
+    {
+        private EmailAddress g;
+        [TestInitialize]
+        public void Init() { g = new EmailAddress(); }
+        [TestCleanup]
+        public void Cleanup()
+        {
+            g = null;
+        }
+
+        [TestMethod]
+        public void ConstructorTest() { Assert.IsNotNull(g); }
+
+
+        [TestMethod]
+        public void EmailTests()
+        {
+            var fakeValue = "some kind of email";
+            g.Email = fakeValue;
+            Assert.AreEqual(fakeValue, g.Email);
+            Assert.AreEqual(typeof(string), g.Email.GetType());
+        }
+
+
+
+
+        private TestContext testContextInstance;
+
+        /// <summary>
+        ///Gets or sets the test context which provides
+        ///information about and functionality for the current test run.
+        ///</summary>
+        public TestContext TestContext
+        {
+            get
+            {
+                return testContextInstance;
+            }
+            set
+            {
+                testContextInstance = value;
+            }
+        }
+
+        
+    }
+}

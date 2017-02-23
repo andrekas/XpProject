@@ -3,3 +3,8 @@ C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\RoleAndParty\b
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\RoleAndParty\obj\Debug\RoleAndParty.csprojResolveAssemblyReference.cache
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\RoleAndParty\obj\Debug\RoleAndParty.dll
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\RoleAndParty\obj\Debug\RoleAndParty.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\RoleAndParty\bin\Debug\RoleAndParty.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\RoleAndParty\bin\Debug\RoleAndParty.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\RoleAndParty\obj\Debug\RoleAndParty.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\RoleAndParty\obj\Debug\RoleAndParty.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder\RoleAndParty\obj\Debug\RoleAndParty.pdb

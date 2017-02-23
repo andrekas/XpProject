@@ -9,5 +9,7 @@ namespace RoleAndParty.Classes
     public class Person
     {
         public string Gender { get; set; }
+        public DateTime DateofBirth { get; set; }
+
     }
 }
