@@ -15,14 +15,9 @@ namespace RoleAndParty.Tests
             g = null;
         }
 
-
-
-
         [TestMethod]
         public void ConstructorTest() { Assert.IsNotNull(g); }
-
-        private string addressLines;
-        
+           
         [TestMethod]
         public void AddressLinesTest()
         {

@@ -41,7 +41,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Aids\Str.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Classes\Archetype.cs" />
     <Compile Include="Classes\Archetypes.cs" />
     <Compile Include="Classes\EmailAddress.cs" />
@@ -49,6 +48,7 @@
     <Compile Include="Classes\GeographicAddress.cs" />
     <Compile Include="Classes\GeographicAddresses.cs" />
     <Compile Include="Classes\Organisation.cs" />
+    <Compile Include="Classes\OrganisationType.cs" />
     <Compile Include="Classes\Person.cs" />
     <Compile Include="Classes\RelationshipType.cs" />
     <Compile Include="Classes\RelationshipTypes.cs" />

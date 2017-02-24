@@ -16,10 +16,10 @@ namespace XPProject.Tests
            Assert.IsNotNull(new Person());
         }
 
-        [TestMethod]
-        public void GenderTest()
-        {
-            var g =
-        }
+        //[TestMethod]
+        //public void GenderTest()
+        //{
+        //    var g =
+        //}
     }
 }
