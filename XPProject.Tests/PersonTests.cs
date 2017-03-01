@@ -19,7 +19,7 @@ namespace XPProject.Tests
         [TestMethod]
         public void GenderTest()
         {
-            var g =
+           
         }
     }
 }
