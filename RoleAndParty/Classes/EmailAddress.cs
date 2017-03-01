@@ -1,7 +1,15 @@
-﻿namespace RoleAndParty.Classes
+﻿using RoleAndParty.Aids;
+
+namespace RoleAndParty.Classes
 {
     public class EmailAddress
     {
-        public string Email { get; set; }
+        private string email;
+
+        public string Email
+        {
+            get { return Str.EmptyIfNull(email); }
+            set { email = value; }
+        }
     }
 }

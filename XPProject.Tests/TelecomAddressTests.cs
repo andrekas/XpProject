@@ -3,9 +3,6 @@ using RoleAndParty.Classes;
 
 namespace RoleAndParty.Tests
 {
-    /// <summary>
-    /// Summary description for TelecomAddressTests
-    /// </summary>
     [TestClass]
     public class TelecomAddressTests
     {
@@ -21,7 +18,7 @@ namespace RoleAndParty.Tests
         [TestMethod]
         public void ConstructorTest() { Assert.IsNotNull(g); }
 
-        
+
         [TestMethod]
         public void AreaCodeTests()
         {
@@ -70,6 +67,5 @@ namespace RoleAndParty.Tests
             Assert.AreEqual(fakeValue, g.PhysicalType);
             Assert.AreEqual(typeof(string), g.PhysicalType.GetType());
         }
-
     }
 }

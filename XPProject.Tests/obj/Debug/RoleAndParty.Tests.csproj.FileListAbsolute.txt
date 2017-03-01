@@ -92,3 +92,11 @@ C:\Users\Asus\Documents\GiHub\XpProject\XPProject.Tests\bin\Debug\XPProject.Test
 C:\Users\Asus\Documents\GiHub\XpProject\XPProject.Tests\bin\Debug\XPProject.Tests.pdb
 C:\Users\Asus\Documents\GiHub\XpProject\XPProject.Tests\bin\Debug\RoleAndParty.dll
 C:\Users\Asus\Documents\GiHub\XpProject\XPProject.Tests\bin\Debug\RoleAndParty.pdb
+C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\bin\Debug\XPProject.Tests.dll.config
+C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\bin\Debug\XPProject.Tests.dll
+C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\bin\Debug\XPProject.Tests.pdb
+C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\bin\Debug\RoleAndParty.dll
+C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\bin\Debug\RoleAndParty.pdb
+C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\obj\Debug\RoleAndParty.Tests.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\obj\Debug\XPProject.Tests.dll
+C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\obj\Debug\XPProject.Tests.pdb

@@ -9,7 +9,7 @@ namespace RoleAndParty.Classes
         private string country;
         private string regionOrState;
         private string zipOrPostcode;
-        public string AddressLines 
+        public string AddressLines
         {
             get { return Str.EmptyIfNull(addressLines); }
             set { addressLines = value; }
