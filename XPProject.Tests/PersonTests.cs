@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RoleAndParty.Classes;
 
 namespace XPProject.Tests
@@ -11,15 +6,41 @@ namespace XPProject.Tests
     [TestClass]
     public class PersonTests
     {
-        [TestMethod] public void ConstructorTest()
+        private Person p;
+        [TestInitialize]
+        public void Init() { p = new Person(); }
+        [TestCleanup]
+        public void Cleanup()
         {
-           Assert.IsNotNull(new Person());
+            p = null;
         }
 
         [TestMethod]
-        public void GenderTest()
+        public void ConstructorTest()
         {
-           
+            Assert.IsNotNull(p);
+        }
+        [TestMethod]
+        public void NameTests()
+        {
+            var fakeValue = "some kind of Name";
+            p.Name = fakeValue;
+            Assert.AreEqual(fakeValue, p.Name);
+            Assert.AreEqual(typeof(string), p.Name.GetType());
+        }
+
+        [TestMethod]
+        public void GenderTests()
+        {
+            var fakeValue = "some kind of Gender";
+            p.Gender = fakeValue;
+            Assert.AreEqual(fakeValue, p.Gender);
+            Assert.AreEqual(typeof(string), p.Gender.GetType());
+        }
+        [TestMethod]
+        public void DateTimeTests()
+        {
+            
         }
     }
 }
