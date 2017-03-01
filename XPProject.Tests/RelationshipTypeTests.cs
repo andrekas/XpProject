@@ -21,9 +21,9 @@ namespace RoleAndParty.Tests
         public void NameTests()
         {
             var fakeValue = "some kind of Name";
-            g.Name = fakeValue;
-            Assert.AreEqual(fakeValue, g.Name);
-            Assert.AreEqual(typeof(string), g.Name.GetType());
+            g.Gender = fakeValue;
+            Assert.AreEqual(fakeValue, g.Gender);
+            Assert.AreEqual(typeof(string), g.Gender.GetType());
         }
 
         [TestMethod]
