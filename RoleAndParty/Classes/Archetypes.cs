@@ -9,7 +9,7 @@ namespace RoleAndParty.Classes
         private readonly List<T> list = new List<T>();
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return list.GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()

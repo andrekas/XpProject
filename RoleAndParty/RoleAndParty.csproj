@@ -43,6 +43,8 @@
     <Compile Include="Aids\Str.cs" />
     <Compile Include="Classes\Archetype.cs" />
     <Compile Include="Classes\Archetypes.cs" />
+    <Compile Include="Classes\BodyMetric.cs" />
+    <Compile Include="Classes\BodyMetrics.cs" />
     <Compile Include="Classes\EmailAddress.cs" />
     <Compile Include="Classes\EmailAddresses.cs" />
     <Compile Include="Classes\GeographicAddress.cs" />
