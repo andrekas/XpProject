@@ -1,8 +1,22 @@
-﻿namespace RoleAndParty.Classes
+﻿using RoleAndParty.Aids;
+
+namespace RoleAndParty.Classes
 {
     public class RelationshipType
     {
-        public string Name { get; set; }
-        public string Description { get; set; }
+        public string name;
+        public string description;
+
+        public string Name
+        {
+            get { return Str.EmptyIfNull(name); }
+            set { name = value; }
+        }
+
+        public string Description
+        {
+            get { return Str.EmptyIfNull(description); }
+            set { description = value; }
+        }
     }
 }

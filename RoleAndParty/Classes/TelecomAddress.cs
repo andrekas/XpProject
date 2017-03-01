@@ -1,12 +1,45 @@
-﻿namespace RoleAndParty.Classes
+﻿using RoleAndParty.Aids;
+
+namespace RoleAndParty.Classes
 {
     public class TelecomAddress
     {
-        public string AreaCode { get; set; }
-        public string CountryCode { get; set; }
-        public string Extension { get; set; }
-        public string NationalDirectDialingPrefix { get; set; }
-        public string Number { get; set; }
-        public string PhysicalType { get; set; }
+        public string areaCode;
+        public string countryCode;
+        public string extension;
+        public string nationalDirectDialingPrefix;
+        public string number;
+        public string physicalType;
+
+        public string AreaCode
+        {
+            get { return Str.EmptyIfNull(areaCode); }
+            set { areaCode = value; }
+        }
+        public string CountryCode
+        {
+            get { return Str.EmptyIfNull(countryCode); }
+            set { countryCode = value; }
+        }
+        public string Extension
+        {
+            get { return Str.EmptyIfNull(extension); }
+            set { extension = value; }
+        }
+        public string NationalDirectDialingPrefix
+        {
+            get { return Str.EmptyIfNull(nationalDirectDialingPrefix); }
+            set { nationalDirectDialingPrefix = value; }
+        }
+        public string Number
+        {
+            get { return Str.EmptyIfNull(number); }
+            set { number = value; }
+        }
+        public string PhysicalType
+        {
+            get { return Str.EmptyIfNull(physicalType); }
+            set { physicalType = value; }
+        }
     }
 }
