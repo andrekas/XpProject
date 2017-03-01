@@ -58,7 +58,7 @@
     <Compile Include="Classes\TelecomAddresses.cs" />
     <Compile Include="Classes\WebpageAddress.cs" />
     <Compile Include="Classes\WebpageAddresses.cs" />
-    <Compile Include="Persons.cs" />
+    <Compile Include="Classes\Persons.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
