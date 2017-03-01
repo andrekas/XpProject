@@ -60,6 +60,7 @@
     <Compile Include="OrganisationTypeTests.cs" />
     <Compile Include="PersonTests.cs" />
     <Compile Include="RelationshipTypeTests.cs" />
+    <Compile Include="StrTest.cs" />
     <Compile Include="TelecomAddressTests.cs" />
     <Compile Include="WebpageAddressTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
