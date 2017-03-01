@@ -3,9 +3,7 @@ using RoleAndParty.Classes;
 
 namespace RoleAndParty.Tests
 {
-    /// <summary>
-    /// Summary description for RelationshipTypeTests
-    /// </summary>
+
     [TestClass]
     public class RelationshipTypeTests
     {
