@@ -7,7 +7,7 @@ namespace RoleAndParty.Classes
         public string name;
         public string description;
 
-        public string Name
+        public string Gender
         {
             get { return Str.EmptyIfNull(name); }
             set { name = value; }

@@ -11,15 +11,37 @@ namespace XPProject.Tests
     [TestClass]
     public class PersonTests
     {
-        [TestMethod] public void ConstructorTest()
+        private RelationshipType g;
+        [TestInitialize]
+        public void Init() { g = new RelationshipType(); }
+        [TestCleanup]
+        public void Cleanup()
         {
-           Assert.IsNotNull(new Person());
+            g = null;
         }
 
         [TestMethod]
-        public void GenderTest()
+        public void ConstructorTest()
         {
-           
+            Assert.IsNotNull(g);
+            Assert.IsNotNull(new Person());
+        }
+
+        [TestMethod]
+        public void NameTests()
+        {
+            var fakeValue = "some kind of Name";
+            g.Gender = fakeValue;
+            Assert.AreEqual(fakeValue, g.Gender);
+            Assert.AreEqual(typeof(string), g.Gender.GetType());
+        }
+        [TestMethod]
+        public void GenderTests()
+        {
+            var fakeValue = "some kind of Gender";
+            g.Gender = fakeValue;
+            Assert.AreEqual(fakeValue, g.Gender);
+            Assert.AreEqual(typeof(string), g.Gender.GetType());
         }
     }
 }

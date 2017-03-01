@@ -3,3 +3,8 @@ C:\Users\User\Documents\GitHub\XpProject\RoleAndParty\bin\Debug\RoleAndParty.pdb
 C:\Users\User\Documents\GitHub\XpProject\RoleAndParty\obj\Debug\RoleAndParty.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\GitHub\XpProject\RoleAndParty\obj\Debug\RoleAndParty.dll
 C:\Users\User\Documents\GitHub\XpProject\RoleAndParty\obj\Debug\RoleAndParty.pdb
+C:\Users\Katjuska\Documents\GitHub\XpProject\RoleAndParty\bin\Debug\RoleAndParty.dll
+C:\Users\Katjuska\Documents\GitHub\XpProject\RoleAndParty\bin\Debug\RoleAndParty.pdb
+C:\Users\Katjuska\Documents\GitHub\XpProject\RoleAndParty\obj\Debug\RoleAndParty.csprojResolveAssemblyReference.cache
+C:\Users\Katjuska\Documents\GitHub\XpProject\RoleAndParty\obj\Debug\RoleAndParty.dll
+C:\Users\Katjuska\Documents\GitHub\XpProject\RoleAndParty\obj\Debug\RoleAndParty.pdb
