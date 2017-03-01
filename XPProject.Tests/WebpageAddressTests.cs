@@ -19,10 +19,7 @@ namespace RoleAndParty.Tests
         }
 
         [TestMethod]
-        public void ConstructorTest()
-        {
-            Assert.IsNotNull(new WebpageAddress());
-        }
+        public void ConstructorTest() { Assert.IsNotNull(g); }
 
         [TestMethod]
         public void UrlTests()
@@ -33,18 +30,12 @@ namespace RoleAndParty.Tests
             Assert.AreEqual(typeof(string), g.Url.GetType());
         }
 
-        [TestMethod]
-        public void UrlTest()
-        {
-            var w = new WebpageAddress();
-            var u = new Url("www.abc.ee");
-
-            Assert.AreNotEqual(String.Empty, u);
-
-
-
-
-        }
-
+        //[TestMethod]
+        //public void UrlTest()
+        //{
+        //var w = new WebpageAddress();
+        //var u = new Url("www.abc.ee");
+        //Assert.AreNotEqual(String.Empty, u);
     }
 }
+
