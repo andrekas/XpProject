@@ -3,7 +3,6 @@ using RoleAndParty.Classes;
 
 namespace RoleAndParty.Tests
 {
-
     [TestClass]
     public class RelationshipTypeTests
     {
@@ -22,9 +21,9 @@ namespace RoleAndParty.Tests
         public void NameTests()
         {
             var fakeValue = "some kind of Name";
-            g.Name = fakeValue;
-            Assert.AreEqual(fakeValue, g.Name);
-            Assert.AreEqual(typeof(string), g.Name.GetType());
+            g.Gender = fakeValue;
+            Assert.AreEqual(fakeValue, g.Gender);
+            Assert.AreEqual(typeof(string), g.Gender.GetType());
         }
 
         [TestMethod]
@@ -35,7 +34,5 @@ namespace RoleAndParty.Tests
             Assert.AreEqual(fakeValue, g.Description);
             Assert.AreEqual(typeof(string), g.Description.GetType());
         }
-
-
     }
 }

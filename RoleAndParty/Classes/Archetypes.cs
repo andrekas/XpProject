@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 
 namespace RoleAndParty.Classes
@@ -9,7 +8,7 @@ namespace RoleAndParty.Classes
         private readonly List<T> list = new List<T>();
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            return list.GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()
@@ -34,35 +33,35 @@ namespace RoleAndParty.Classes
 
         public void CopyTo(T[] array, int arrayIndex)
         {
-            throw new NotImplementedException();
+            list.CopyTo(array, arrayIndex);
         }
 
         public bool Remove(T item)
         {
-            throw new NotImplementedException();
+            return list.Remove(item);
         }
 
         public int Count => list.Count;
         public bool IsReadOnly { get; }
         public int IndexOf(T item)
         {
-            throw new NotImplementedException();
+            return list.IndexOf(item);
         }
 
         public void Insert(int index, T item)
         {
-            throw new NotImplementedException();
+            list.Insert(index, item);
         }
 
         public void RemoveAt(int index)
         {
-            throw new NotImplementedException();
+            list.RemoveAt(index);
         }
 
         public T this[int index]
         {
-            get { throw new NotImplementedException(); }
-            set { throw new NotImplementedException(); }
+            get { return list[index]; }
+            set { list[index] = value; }
         }
     }
 }

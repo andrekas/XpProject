@@ -3,9 +3,8 @@ using RoleAndParty.Classes;
 
 namespace XPProject.Tests
 {
-   
     [TestClass]
-    public class RelationshipTypeTests
+    public class OrganisationTypeTests
     {
         private OrganisationType g;
         [TestInitialize]
@@ -26,6 +25,5 @@ namespace XPProject.Tests
             Assert.AreEqual(fakeValue, g.SyperType);
             Assert.AreEqual(typeof(string), g.SyperType.GetType());
         }
-
     }
 }

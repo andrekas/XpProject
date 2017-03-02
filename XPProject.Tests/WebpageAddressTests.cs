@@ -1,6 +1,4 @@
-﻿using System;
-using System.Security.Policy;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RoleAndParty.Classes;
 
 
@@ -9,23 +7,33 @@ namespace RoleAndParty.Tests
     [TestClass]
     public class WebpageAddressTests
     {
-        [TestMethod]
-        public void ConstructorTest()
+        private WebpageAddress g;
+        [TestInitialize]
+        public void Init() { g = new WebpageAddress(); }
+        [TestCleanup]
+        public void Cleanup()
         {
-            Assert.IsNotNull(new WebpageAddress());
+            g = null;
         }
 
         [TestMethod]
-        public void UrlTest() {
-            var w = new WebpageAddress();
-            var u = new Url("www.abc.ee");
-            
-            Assert.AreNotEqual(String.Empty, u);
-            
+        public void ConstructorTest() { Assert.IsNotNull(g); }
 
-
-
+        [TestMethod]
+        public void UrlTests()
+        {
+            var fakeValue = "some kind of Url";
+            g.Url = fakeValue;
+            Assert.AreEqual(fakeValue, g.Url);
+            Assert.AreEqual(typeof(string), g.Url.GetType());
         }
-        
+
+        //[TestMethod]
+        //public void UrlTest()
+        //{
+        //var w = new WebpageAddress();
+        //var u = new Url("www.abc.ee");
+        //Assert.AreNotEqual(String.Empty, u);
     }
 }
+

@@ -2,10 +2,7 @@
 using RoleAndParty.Classes;
 
 namespace RoleAndParty.Tests
-{
-    /// <summary>
-    /// Summary description for EmailAddressTests
-    /// </summary>
+{    
     [TestClass]
     public class EmailAddressTests
     {
@@ -32,8 +29,6 @@ namespace RoleAndParty.Tests
         }
 
 
-
-
         private TestContext testContextInstance;
 
         /// <summary>
@@ -51,7 +46,5 @@ namespace RoleAndParty.Tests
                 testContextInstance = value;
             }
         }
-
-        
     }
 }
