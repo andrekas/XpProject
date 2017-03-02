@@ -100,3 +100,11 @@ C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\bin\Debug\RoleAndParty.
 C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\obj\Debug\RoleAndParty.Tests.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\obj\Debug\XPProject.Tests.dll
 C:\Users\User\Documents\GitHub\XpProject\XPProject.Tests\obj\Debug\XPProject.Tests.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder (2)\XPProject.Tests\bin\Debug\XPProject.Tests.dll.config
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder (2)\XPProject.Tests\bin\Debug\XPProject.Tests.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder (2)\XPProject.Tests\bin\Debug\XPProject.Tests.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder (2)\XPProject.Tests\bin\Debug\RoleAndParty.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder (2)\XPProject.Tests\bin\Debug\RoleAndParty.pdb
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder (2)\XPProject.Tests\obj\Debug\RoleAndParty.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder (2)\XPProject.Tests\obj\Debug\XPProject.Tests.dll
+C:\Users\Andre\Documents\Visual Studio 2015\Projects\New folder (2)\XPProject.Tests\obj\Debug\XPProject.Tests.pdb

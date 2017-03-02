@@ -6,6 +6,7 @@ namespace XPProject.Tests
     [TestClass]
     public class PersonTests
     {
+<<<<<<< ours
 
         private Person p;
 
@@ -15,10 +16,16 @@ namespace XPProject.Tests
             p = new Person();
         }
 
+=======
+        private Person p;
+        [TestInitialize]
+        public void Init() { p = new Person(); }
+>>>>>>> theirs
         [TestCleanup]
         public void Cleanup()
         {
             p = null;
+<<<<<<< ours
         }
         
         [TestMethod]
@@ -52,6 +59,35 @@ namespace XPProject.Tests
         [TestMethod]
         public void DateTimeTests()
         {
+=======
+        }
+
+        [TestMethod]
+        public void ConstructorTest()
+        {
+            Assert.IsNotNull(p);
+        }
+        [TestMethod]
+        public void NameTests()
+        {
+            var fakeValue = "some kind of Name";
+            p.Name = fakeValue;
+            Assert.AreEqual(fakeValue, p.Name);
+            Assert.AreEqual(typeof(string), p.Name.GetType());
+        }
+
+        [TestMethod]
+        public void GenderTests()
+        {
+            var fakeValue = "some kind of Gender";
+            p.Gender = fakeValue;
+            Assert.AreEqual(fakeValue, p.Gender);
+            Assert.AreEqual(typeof(string), p.Gender.GetType());
+        }
+        [TestMethod]
+        public void DateTimeTests()
+        {
+>>>>>>> theirs
             
         }
     }
