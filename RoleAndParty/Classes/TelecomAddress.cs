@@ -4,12 +4,12 @@ namespace RoleAndParty.Classes
 {
     public class TelecomAddress
     {
-        public string areaCode;
-        public string countryCode;
-        public string extension;
-        public string nationalDirectDialingPrefix;
-        public string number;
-        public string physicalType;
+        private string areaCode;
+        private string countryCode;
+        private string extension;
+        private string nationalDirectDialingPrefix;
+        private string number;
+        private string physicalType;
 
         public string AreaCode
         {

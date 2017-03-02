@@ -4,7 +4,7 @@ namespace RoleAndParty.Classes
 {
     public class WebpageAddress
     {
-        public string url;
+        private string url;
 
         public string Url
         {
