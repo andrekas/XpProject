@@ -4,8 +4,8 @@ namespace RoleAndParty.Classes
 {
     public class RelationshipType
     {
-        public string name;
-        public string description;
+        private string name;
+        private string description;
 
         public string Gender
         {
