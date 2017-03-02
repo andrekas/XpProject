@@ -30,5 +30,11 @@ namespace RoleAndParty.Classes
             PersonNames.GetPersonName(name);
         }
 
+        public ISOGender getPersonGender()
+        {
+            ISOGender.G
+            
+        }
+
     }
 }
