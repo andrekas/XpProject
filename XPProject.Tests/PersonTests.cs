@@ -54,5 +54,11 @@ namespace XPProject.Tests
         {
             
         }
+
+        [TestMethod]
+        public void IsNotNullTest()
+        {
+            Assert.IsNotNull(typeof(Persons));
+        }
     }
 }

@@ -34,5 +34,11 @@ namespace RoleAndParty.Tests
             Assert.AreEqual(fakeValue, g.Description);
             Assert.AreEqual(typeof(string), g.Description.GetType());
         }
+
+        [TestMethod]
+        public void IsNotNullTest()
+        {
+            Assert.IsNotNull(typeof(RelationshipTypes));
+        }
     }
 }

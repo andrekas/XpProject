@@ -63,5 +63,10 @@ namespace RoleAndParty.Tests
             Assert.AreEqual(typeof(string), g.ZipOrPostcode.GetType());
         }
 
+        [TestMethod]
+        public void IsNotNullTest()
+        {
+            Assert.IsNotNull(typeof(GeographicAddresses));
+        }
     }
 }

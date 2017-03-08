@@ -25,16 +25,16 @@ namespace RoleAndParty.Classes
             set { DateOfBirth = value; }
         }
 
-        public PersonName getPersonName()
-        {
-            PersonNames.GetPersonName(name);
-        }
+        //public PersonName getPersonName()
+        //{
+        //    PersonNames.GetPersonName(name);
+        //}
 
-        public ISOGender getPersonGender()
-        {
-            ISOGender.G
+        //public ISOGender getPersonGender()
+        //{
+        //    ISOGender.G
             
-        }
+        //}
 
     }
 }

@@ -67,5 +67,11 @@ namespace RoleAndParty.Tests
             Assert.AreEqual(fakeValue, g.PhysicalType);
             Assert.AreEqual(typeof(string), g.PhysicalType.GetType());
         }
+
+        [TestMethod]
+        public void IsNotNullTest()
+        {
+            Assert.IsNotNull(typeof(TelecomAddresses));
+        }
     }
 }
