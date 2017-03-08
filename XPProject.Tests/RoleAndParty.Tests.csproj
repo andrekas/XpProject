@@ -54,6 +54,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArchetypesTests.cs" />
     <Compile Include="EmailAddressTests.cs" />
     <Compile Include="GeograficAddressesTests.cs" />
     <Compile Include="GeographicAddressTests.cs" />
