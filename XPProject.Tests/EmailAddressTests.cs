@@ -28,6 +28,11 @@ namespace RoleAndParty.Tests
             Assert.AreEqual(typeof(string), g.Email.GetType());
         }
 
+        [TestMethod]
+        public void IsNotNullTest()
+        {
+            Assert.IsNotNull(typeof(EmailAddresses));
+        }
 
         private TestContext testContextInstance;
 

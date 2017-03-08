@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace RoleAndParty.Classes
 {
-    public class Archetypes<T> : IList<T>
+    public class Archetypes<T> : Archetype, IList<T>
     {
         private readonly List<T> list = new List<T>();
         public IEnumerator<T> GetEnumerator()
@@ -42,7 +42,8 @@ namespace RoleAndParty.Classes
         }
 
         public int Count => list.Count;
-        public bool IsReadOnly { get; }
+        public bool IsReadOnly { get; } = false;
+
         public int IndexOf(T item)
         {
             return list.IndexOf(item);

@@ -1,0 +1,17 @@
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\bin\Debug\Aids.dll
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\bin\Debug\Aids.pdb
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\bin\Debug\Aids.pri
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\Aids.csprojResolveAssemblyReference.cache
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\Aids.dll
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\Aids.pdb
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\priconfig.xml
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\priconfig.xml.intermediate
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\layout.resfiles
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\layout.resfiles.intermediate
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\resources.resfiles
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\resources.resfiles.intermediate
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\pri.resfiles
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\pri.resfiles.intermediate
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\qualifiers.txt
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug\MultipleQualifiersPerDimensionFound.txt

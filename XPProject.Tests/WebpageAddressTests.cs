@@ -28,6 +28,12 @@ namespace RoleAndParty.Tests
             Assert.AreEqual(typeof(string), g.Url.GetType());
         }
 
+        [TestMethod]
+        public void IsNotNullTest()
+        {
+            Assert.IsNotNull(typeof(WebpageAddresses));
+        }
+
         //[TestMethod]
         //public void UrlTest()
         //{

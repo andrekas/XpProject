@@ -5,7 +5,14 @@ namespace RoleAndParty.Classes
 {
     public class Person
     {
-        public string Name { get; set; }
+        private string name;
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
         private string gender;
         public string Gender
         {
@@ -17,6 +24,17 @@ namespace RoleAndParty.Classes
             get { return DateOfBirth; }
             set { DateOfBirth = value; }
         }
+
+        //public PersonName getPersonName()
+        //{
+        //    PersonNames.GetPersonName(name);
+        //}
+
+        //public ISOGender getPersonGender()
+        //{
+        //    ISOGender.G
+            
+        //}
 
     }
 }
