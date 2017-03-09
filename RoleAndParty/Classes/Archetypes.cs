@@ -34,7 +34,7 @@ namespace RoleAndParty.Classes
 
         public void CopyTo(T[] array, int arrayIndex)
         {
-            list.CopyTo(array, arrayIndex);
+            list.CopyTo(array, arrayIndex); 
         }
 
         public bool Remove(T item) //testitud

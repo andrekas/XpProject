@@ -34,14 +34,15 @@ namespace XPProject.Tests
         public void CanRemove()
         {
             var a = new Archetype();
-            g.Remove(a);
-            Assert.AreEqual(0, g.Count);
+            g.Remove(a);//lisada midagi, ja siis remove teha, vb mitu lisada
         }
 
         [TestMethod]
         public void CanClear()
         {
-
+            var a = new Archetype();
+            g.Add(a);
+            Assert.AreEqual(1, g.Count);
             g.Clear();
             Assert.AreEqual(0, g.Count);
         }
@@ -83,7 +84,10 @@ namespace XPProject.Tests
         [TestMethod]
         public void CopyToTest()
         {
-            
+            //var a = new  Archetype[2] {new Archetype(), new Archetype()};
+            //g.CopyTo(a, 0);
+            //Assert.AreEqual(2, );
+            //Assert.AreEqual(true, g.Contains(a[0]));
         }
 
     }

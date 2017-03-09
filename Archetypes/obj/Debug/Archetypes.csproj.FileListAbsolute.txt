@@ -31,3 +31,4 @@ C:\Users\Asus\Documents\GiHub\XpProject\Archetypes\obj\Debug\pri.resfiles.interm
 C:\Users\Asus\Documents\GiHub\XpProject\Archetypes\obj\Debug\qualifiers.txt
 C:\Users\Asus\Documents\GiHub\XpProject\Archetypes\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Asus\Documents\GiHub\XpProject\Archetypes\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Archetypes\obj\Debug\Archetypes.csprojResolveAssemblyReference.cache
