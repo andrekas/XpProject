@@ -34,7 +34,13 @@ namespace XPProject.Tests
         public void CanRemove()
         {
             var a = new Archetype();
-            g.Remove(a);//lisada midagi, ja siis remove teha, vb mitu lisada
+            var b = new Archetype();
+            g.Add(a);
+            g.Add(b);
+            g.Remove(a);
+            Assert.IsFalse(g.Contains(a));
+            Assert.IsTrue(g.Contains(b));
+            Assert.AreEqual(1, g.Count);
         }
 
         [TestMethod]
