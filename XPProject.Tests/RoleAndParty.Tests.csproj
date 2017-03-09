@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="ArchetypesTests.cs" />
     <Compile Include="EmailAddressTests.cs" />
+    <Compile Include="ISOGenderTests.cs" />
     <Compile Include="GeograficAddressesTests.cs" />
     <Compile Include="GeographicAddressTests.cs" />
     <Compile Include="OrganisationTypeTests.cs" />
