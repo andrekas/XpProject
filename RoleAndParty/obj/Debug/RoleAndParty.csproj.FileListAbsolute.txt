@@ -14,3 +14,7 @@ C:\Users\Katjuska\Documents\GitHub\XpProject\RoleAndParty\obj\Debug\RoleAndParty
 C:\Users\Asus\Documents\GiHub\XpProject\RoleAndParty\obj\Debug\RoleAndParty.csprojResolveAssemblyReference.cache
 C:\Users\Asus\Documents\GiHub\XpProject\RoleAndParty\obj\Debug\RoleAndParty.dll
 C:\Users\Asus\Documents\GiHub\XpProject\RoleAndParty\obj\Debug\RoleAndParty.pdb
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\RoleAndParty\bin\Debug\RoleAndParty.dll
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\RoleAndParty\bin\Debug\RoleAndParty.pdb
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\RoleAndParty\obj\Debug\RoleAndParty.dll
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\RoleAndParty\obj\Debug\RoleAndParty.pdb
