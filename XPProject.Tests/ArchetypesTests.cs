@@ -46,14 +46,45 @@ namespace XPProject.Tests
             Assert.AreEqual(0, g.Count);
         }
 
-        //[TestMethod]
-        //public void ContainsTest()
-        //{
-        //    var a = new Archetype();
-        //    g.Add(a);
-        //    Assert.AreEqual();
+        [TestMethod]
+        public void ContainsTest()
+        {
+            var a = new Archetype();
+            g.Add(a);
+            Assert.IsTrue(g.Contains(a));
+        }
 
-        //}
+        [TestMethod]
+        public void IndexOfTest()
+        {
+            var a = new Archetype();
+            g.Add(a);
+            Assert.AreEqual(0, g.IndexOf(a));
+        }
+
+        [TestMethod]
+        public void InsertTest()
+        {
+            var a = new Archetype();
+            g.Insert(0, a);
+            Assert.IsTrue(g.Contains(a));
+            Assert.AreEqual(0, g.IndexOf(a));
+        }
+
+        [TestMethod]
+        public void RemoveAtTest()
+        {
+            var a = new Archetype();
+            g.Add(a);
+            g.Remove(a);
+            Assert.IsFalse(g.Contains(a));
+        }
+
+        [TestMethod]
+        public void CopyToTest()
+        {
+            
+        }
 
     }
 

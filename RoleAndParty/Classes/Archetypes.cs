@@ -22,12 +22,12 @@ namespace RoleAndParty.Classes
             list.Add(item);
         }
 
-        public void Clear() //testitud; kuidas testida ilma teisi meetodeid kasutamata..
+        public void Clear() //testitud
         {
             list.Clear();
         }
 
-        public bool Contains(T item) // testimata
+        public bool Contains(T item) //testitud
         {
             return list.Contains(item);
         }
@@ -45,17 +45,17 @@ namespace RoleAndParty.Classes
         public int Count => list.Count;
         public bool IsReadOnly { get; } = false;
 
-        public int IndexOf(T item)
+        public int IndexOf(T item) //testitud
         {
             return list.IndexOf(item);
         }
 
-        public void Insert(int index, T item)
+        public void Insert(int index, T item) //testitud
         {
             list.Insert(index, item);
         }
 
-        public void RemoveAt(int index)
+        public void RemoveAt(int index) //testitud
         {
             list.RemoveAt(index);
         }
