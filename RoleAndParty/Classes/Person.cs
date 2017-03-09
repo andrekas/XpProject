@@ -6,6 +6,9 @@ namespace RoleAndParty.Classes
     public class Person
     {
         private string name;
+        public static DateTime MinDateOfBirth => new DateTime(1900, 1, 1);
+        public static DateTime MaxDateOfBirth => new DateTime(2100, 1, 1);
+        private DateTime dateOfBirth = MinDateOfBirth;
 
         public string Name
         {
@@ -19,22 +22,44 @@ namespace RoleAndParty.Classes
             get { return Str.EmptyIfNull(gender); }
             set { gender = value; }
         }
+        //public DateTime DateOfBirth
+        //{
+        //    get { return DateOfBirth; }
+        //    set { DateOfBirth = value; }
+        //}
+
         public DateTime DateOfBirth
         {
-            get { return DateOfBirth; }
-            set { DateOfBirth = value; }
+            get { return dateOfBirth; }
+            set
+            {
+                if (value < MinDateOfBirth) return;
+                if (value > MaxDateOfBirth) return;
+                dateOfBirth = value;
+            }
         }
 
-        //public PersonName getPersonName()
+        public PersonName getPersonName()
+        {
+            PersonNames.GetPersonName(name);
+            ///return?
+            return new PersonName();
+        }
+
+        //public PersonName getPersonEthnicity()
         //{
-        //    PersonNames.GetPersonName(name);
+        //    Ethnicities.GetPersonEthnicity(name);
+        //    ///return?
+        //    return new Ethnicity();
         //}
 
         //public ISOGender getPersonGender()
         //{
-        //    ISOGender.G
-            
+        //    ISOGender.;
+
         //}
+
+        //public ISOGender Gender { get; set; }
 
     }
 }

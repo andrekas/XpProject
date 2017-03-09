@@ -47,6 +47,8 @@
     <Compile Include="Classes\BodyMetrics.cs" />
     <Compile Include="Classes\EmailAddress.cs" />
     <Compile Include="Classes\EmailAddresses.cs" />
+    <Compile Include="Classes\Ethnicities.cs" />
+    <Compile Include="Classes\Ethnicity.cs" />
     <Compile Include="Classes\GeographicAddress.cs" />
     <Compile Include="Classes\GeographicAddresses.cs" />
     <Compile Include="Classes\ISOGender.cs" />
