@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Messaging;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RoleAndParty.Classes
+﻿namespace RoleAndParty.Classes
 {
     public enum ISOGender
     {
@@ -14,6 +7,4 @@ namespace RoleAndParty.Classes
         Female = 2,
         NotSpecified = 9
     }
-
-
 }

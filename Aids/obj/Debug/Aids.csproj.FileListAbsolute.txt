@@ -18,7 +18,6 @@ C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Aids\obj\Debug
 C:\Users\Asus\Documents\GiHub\XpProject\Aids\bin\Debug\Aids.dll
 C:\Users\Asus\Documents\GiHub\XpProject\Aids\bin\Debug\Aids.pdb
 C:\Users\Asus\Documents\GiHub\XpProject\Aids\bin\Debug\Aids.pri
-C:\Users\Asus\Documents\GiHub\XpProject\Aids\obj\Debug\Aids.csprojResolveAssemblyReference.cache
 C:\Users\Asus\Documents\GiHub\XpProject\Aids\obj\Debug\Aids.dll
 C:\Users\Asus\Documents\GiHub\XpProject\Aids\obj\Debug\Aids.pdb
 C:\Users\Asus\Documents\GiHub\XpProject\Aids\obj\Debug\priconfig.xml

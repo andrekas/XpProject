@@ -6,6 +6,7 @@ namespace RoleAndParty.Classes
     public class Archetypes<T> : Archetype, IList<T>
     {
         private readonly List<T> list = new List<T>();
+
         public IEnumerator<T> GetEnumerator()
         {
             return list.GetEnumerator();
@@ -16,27 +17,27 @@ namespace RoleAndParty.Classes
             return GetEnumerator();
         }
 
-        public void Add(T item)
+        public void Add(T item) //testitud
         {
             list.Add(item);
         }
 
-        public void Clear()
+        public void Clear() //testitud
         {
             list.Clear();
         }
 
-        public bool Contains(T item)
+        public bool Contains(T item) //testitud
         {
             return list.Contains(item);
         }
 
-        public void CopyTo(T[] array, int arrayIndex)
+        public void CopyTo(T[] array, int arrayIndex) //testimata, uurida veel
         {
-            list.CopyTo(array, arrayIndex);
+            list.CopyTo(array, arrayIndex); 
         }
 
-        public bool Remove(T item)
+        public bool Remove(T item) //testitud
         {
             return list.Remove(item);
         }
@@ -44,17 +45,17 @@ namespace RoleAndParty.Classes
         public int Count => list.Count;
         public bool IsReadOnly { get; } = false;
 
-        public int IndexOf(T item)
+        public int IndexOf(T item) //testitud
         {
             return list.IndexOf(item);
         }
 
-        public void Insert(int index, T item)
+        public void Insert(int index, T item) //testitud
         {
             list.Insert(index, item);
         }
 
-        public void RemoveAt(int index)
+        public void RemoveAt(int index) //testitud
         {
             list.RemoveAt(index);
         }
