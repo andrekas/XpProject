@@ -32,7 +32,7 @@ namespace RoleAndParty.Classes
             return list.Contains(item);
         }
 
-        public void CopyTo(T[] array, int arrayIndex) //testimata, uurida veel
+        public void CopyTo(T[] array, int arrayIndex) //testimata, infot saab OPEN failist
         {
             list.CopyTo(array, arrayIndex); 
         }
