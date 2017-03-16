@@ -60,6 +60,7 @@
     <Compile Include="GeographicAddressTests.cs" />
     <Compile Include="ISOGenderTests.cs" />
     <Compile Include="OrganisationTypeTests.cs" />
+    <Compile Include="PersonNamesTests.cs" />
     <Compile Include="PersonTests.cs" />
     <Compile Include="RelationshipTypeTests.cs" />
     <Compile Include="StrTest.cs" />
