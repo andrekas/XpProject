@@ -1,5 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Open.Logic;
+﻿using Data;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Open.Tests.Logic {
-    [TestClass] public class DummyTests : ClassTests<Dummy> {}
+    [TestClass] public class DummyTests : ClassTests<Class1> {}
 }

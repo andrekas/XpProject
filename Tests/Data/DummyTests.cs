@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Open.Data;
+using Data;
 namespace Open.Tests.Data {
-    [TestClass] public class DummyTests : ClassTests<Dummy> {}
+    [TestClass] public class DummyTests : ClassTests<Class1> {}
 }

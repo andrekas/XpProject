@@ -14,3 +14,15 @@ C:\Users\Andre\Desktop\Open\Tests\obj\Debug\Open.Tests.pdb
 C:\Users\Andre\Source\Repos\XpProject\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
 C:\Users\Andre\Source\Repos\XpProject\Tests\obj\Debug\Open.Tests.dll
 C:\Users\Andre\Source\Repos\XpProject\Tests\obj\Debug\Open.Tests.pdb
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Open.Tests.dll
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Open.Tests.pdb
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Data.dll
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Logic.dll
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Open.Aids.dll
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Open.Archetypes.dll
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Open.Aids.pdb
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Open.Archetypes.pdb
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Data.pdb
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Data.pri
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Logic.pdb
+C:\Users\Andre\Source\Repos\XpProject\Tests\bin\Debug\Logic.pri
