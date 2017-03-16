@@ -89,17 +89,16 @@ namespace XPProject.Tests
             Assert.IsFalse(g.Contains(a));
         }
 
-        //[TestMethod]
-        //public void CopyToTest()
-        //{
-        //    var a = new Archetype[2] { new Archetype(), new Archetype() };
-        //    g.CopyTo(a, 0);
-        //    for (var i = 0; i < a.Length; i++)
-        //        Assert.AreEqual(a[i], g[i]);
-            
-            
+        [TestMethod]
+        public void CopyToTest()
+        {
+            var a = new Archetype[2] {new Archetype(), new Archetype()};
+            g.CopyTo(a, 0);
+            for (var i = 0; i < a.Length; i++)
+                Assert.AreEqual(a[i], g[i]);
         }
 
+    }
         //OPENIST testinäide
         //AddTest();
         //    ClearDoOnChanged();
