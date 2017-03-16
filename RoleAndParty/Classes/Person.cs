@@ -6,6 +6,10 @@ namespace RoleAndParty.Classes
     public class Person
     {
         private string name;
+        private PersonName personName;
+        private ISOGender gender;
+        private Ethnicity ethnicity;
+        private BodyMetric bodyMetric;
         public static DateTime MinDateOfBirth => new DateTime(1900, 1, 1);
         public static DateTime MaxDateOfBirth => new DateTime(2100, 1, 1);
         private DateTime dateOfBirth = MinDateOfBirth;
@@ -16,12 +20,13 @@ namespace RoleAndParty.Classes
             set { name = value; }
         }
 
-        private string gender;
-        public string Gender
+        public Ethnicity Ethnicity
         {
-            get { return Str.EmptyIfNull(gender); }
-            set { gender = value; }
+            get { return ethnicity; }
+            set { ethnicity = value; }
         }
+
+
         //public DateTime DateOfBirth
         //{
         //    get { return DateOfBirth; }
@@ -39,27 +44,24 @@ namespace RoleAndParty.Classes
             }
         }
 
-        public PersonName getPersonName()
+        public PersonName PersonName
         {
-            PersonNames.GetPersonName(name);
-            ///return?
-            return new PersonName();
+            get { return personName; }
+            set { personName = value; }
         }
 
-        //public PersonName getPersonEthnicity()
-        //{
-        //    Ethnicities.GetPersonEthnicity(name);
-        //    ///return?
-        //    return new Ethnicity();
-        //}
+        public ISOGender Gender
+        {
+            get { return gender; }
+            set { gender = value; }
+        }
 
-        //public ISOGender getPersonGender()
-        //{
-        //    ISOGender.;
+        public BodyMetric BodyMetric
+        {
+            get { return bodyMetric; }
+            set { bodyMetric = value; }
+        }
 
-        //}
-
-        //public ISOGender Gender { get; set; }
 
     }
 }

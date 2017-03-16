@@ -1,6 +1,7 @@
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Archetypes\bin\Debug\Archetypes.dll
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Archetypes\bin\Debug\Archetypes.pdb
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Archetypes\bin\Debug\Archetypes.pri
+C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Archetypes\obj\Debug\Archetypes.csprojResolveAssemblyReference.cache
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Archetypes\obj\Debug\Archetypes.dll
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Archetypes\obj\Debug\Archetypes.pdb
 C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Archetypes\obj\Debug\priconfig.xml
@@ -31,4 +32,3 @@ C:\Users\Asus\Documents\GiHub\XpProject\Archetypes\obj\Debug\pri.resfiles.interm
 C:\Users\Asus\Documents\GiHub\XpProject\Archetypes\obj\Debug\qualifiers.txt
 C:\Users\Asus\Documents\GiHub\XpProject\Archetypes\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Asus\Documents\GiHub\XpProject\Archetypes\obj\Debug\MultipleQualifiersPerDimensionFound.txt
-C:\Users\Kert\OneDrive\University\Programming\Projects\XpProject-\Archetypes\obj\Debug\Archetypes.csprojResolveAssemblyReference.cache
